@@ -1,0 +1,174 @@
+@media only screen and (max-width: 1400px){
+
+    a.nav-elt{
+        width:125px;
+        padding: 10px 5px;
+        font-size: 10px;
+        border-bottom: 0.5px solid #f1f1f1;
+    }
+    .nav-icon{
+        
+        font-size:medium; 
+    }
+
+
+    .user-icon{
+        font-size: medium;
+        padding-left: 5px;
+        padding-top: 10px;
+    }
+
+    .user-name{
+        font-size: 13px;
+        padding-top: 7px;
+    }
+
+    .user-role{
+        font-size: 8px;
+        
+    }
+
+    .content{
+        font-size:13px;
+    }
+
+
+
+}
+
+@media only screen and (max-width: 1000px){
+    h5{
+        font-size: 12px;
+    }
+    
+    .heading-icon{
+        font-size: small;
+    }
+    
+    a.nav-list{
+        display: block;
+    }
+
+    table.tools{
+        margin:0% 2% 0% 2%;
+    }
+
+    td.tools{
+        font-size: 10px;
+    }
+    .announcement-heading{
+        font-size: 11px;
+    }
+
+    .announcement-text{
+        font-size: 9px;
+    }
+
+    .content{
+        font-size:12px;
+    }
+
+    .birthday{
+        margin:0% 2.5% 0% 2.5%;
+    }
+
+    .user-icon{
+        font-size: medium;
+        padding-left: 5px;
+        padding-top: 10px;
+    }
+
+    .user-name{
+        font-size: 12px;
+        padding-top: 8px;
+    }
+
+    .user-role{
+        font-size: 8px;
+        
+    }
+
+    .slide-changer{
+        width:35%;
+    }
+
+    .view-all-btn{
+        font-size:10px;
+        width:80px;
+    }
+
+}
+
+@media only screen and (max-width: 800px){
+    
+    table.tools{
+        margin:0% 1% 0% 1%;
+    }
+
+    td.tools{
+        font-size: 7px;
+        overflow:hidden;
+    }
+    .announcement-heading{
+        font-size: 9px;
+    }
+
+    .announcement-text{
+        font-size: 7px;
+    }
+
+    .content{
+        font-size:10px;
+    }
+
+    .birthday{
+        margin:0% 1.5% 0% 1.5%;
+    }
+
+    .user-icon{
+        font-size: small;
+        padding-left: 2px;
+        padding-top: 18px;
+    }
+
+    .user-name{
+        font-size: 9px;
+        padding-top: 8px;
+    }
+
+    .user-role{
+        font-size: 7px;
+        
+    }
+
+
+    .slide-changer{
+        width:60%;
+        margin: auto
+    } 
+
+
+    
+}
+
+@media only screen and (max-width: 700px){
+    .left-column{
+        display:block;
+        width: 90%;
+    } 
+    td.tools{
+        font-size: 12px;
+        overflow:hidden;
+    }
+    .right-column{
+        display: none;
+    }
+    .middle-column{
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    .outline.lower{
+        height:240px;
+    }
+}

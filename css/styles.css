@@ -1,0 +1,450 @@
+*{
+    box-sizing: border-box;
+}
+
+/* -----------------------fonts used------------------------------------ */
+
+@font-face {
+    font-family: 'Montserrat Light';
+    src: url("../font/Montserrat-Light.ttf");
+}
+
+@font-face {
+    font-family: 'Montserrat Medium';
+    src: url("../font/Montserrat-Medium.ttf");
+}
+
+@font-face {
+    font-family: 'Montserrat Regular';
+    src: url("../font/Montserrat-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Montserrat SemiBold';
+    src: url("../font/Montserrat-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: 'Montserrat Bold';
+    src: url("../font/Montserrat-Bold.ttf");
+}
+
+/* ----------------------------------------------------------- */
+
+body{
+    background-color:#fafafa ;                 /*#89C355 #005CF2*/      /*Color combinations #16697A   #16C79A  #19456B*/ /*  #BAD7DF #4b4b4b #CFF1EF #BEEBE9*/
+    padding-bottom: 0; margin: 0;
+    overflow: auto;
+    
+}
+nav{
+
+    padding:0;
+    margin:0;
+}
+
+hr{
+    background-color: #747474;
+    width:100%;
+    height:5px;
+    border-width:1px;
+    padding: 0; 
+    margin: 0;
+    
+}
+
+h5{
+    font-family: 'Montserrat SemiBold', sans-serif;
+    padding:0;
+    margin:0;
+    font-size:16px;
+    display: inline;
+}
+
+
+/* -------------------------navigation bar---------------------------------- */
+
+#navbar {
+    overflow: hidden;
+    background-color: #FFFFFF ;
+    border-bottom: 0.5px solid #747474;
+    border-top: 1px solid #747474;
+}
+
+
+  
+a.nav-elt, a.brand {
+    
+    float: left;
+    color: #747474;
+    text-align: center;
+    display: block;
+    width:200px;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-family: 'Montserrat SemiBold', sans-serif;
+    font-size: 14px;
+    border: 0px;
+
+}
+
+/* a.brand{
+    background-color: #FFF;
+}
+
+a.nav-elt{
+    background-color: #747474 ;
+} */
+
+a.nav-elt.active {
+    border-bottom: 3px solid #89C355;
+    border-top: 2px solid #89C355;
+    color: #89C355;
+}
+
+a.nav-elt:hover, a.nav-list:hover {
+    
+    color: #89C355;
+    border-bottom: 4px solid #89C355;
+    border-left: 2px solid #89C355;
+    border-right: 2px solid #89C355;
+    text-decoration: none;
+}
+  
+.centered {
+    text-align: center;
+}
+
+
+img.brand-img{
+    height: 35%;
+    width: 40%;
+    padding-top:1px;
+    margin: 0px auto;
+}
+
+
+.nav-icon{
+    display: block; 
+    font-size:large; 
+}
+
+div.sticky {
+
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+a.nav-list{
+    display: none;
+    float: right;
+    color: #747474;
+    text-align: center;
+    width:200px;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: x-large;
+    border: 0px;
+    
+}
+
+
+
+
+/* --------------------------Body : Defining Columns--------------------------------- */
+
+.left-column, .right-column {
+    float: left;
+    width: 20%;
+    padding: 0px;
+    margin: 2.5%;
+    
+  
+}
+
+.middle-column{
+    float: left;
+    width: 50%;
+    padding: 0px;
+    margin-top: 2.5%;
+    
+}
+
+  
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer-gallery{
+    display: block;
+    width: 90%;
+    margin: 50px auto 50px;
+   
+}
+
+/* ----------------------tools Table : Left Column------------------------------------- */
+
+.heading-icon{
+    display: inline; 
+    font-size: large;
+}
+
+table.tools{
+    border-spacing: 10px;
+    width: 95%;
+    margin:0% 2.5% 0% 2.5%;
+    border-collapse: separate;
+   }
+
+th.tools, td.tools {
+    border: 0px solid #747474 ;
+    padding: 10px;
+    border-radius:10px;
+    width: 50%;
+    height: 80px;
+    font-family: 'Montserrat Bold', sans-serif;
+    font-size: 14px;
+}
+
+.odd{
+    background-color: #747474;
+    
+    color: #F5F5F5;
+}
+
+.even{
+    background-color: #F5F5F5;
+    color:  #747474;
+}
+
+.green-headings{
+    color: #89C355;
+    
+
+}
+
+/* ------------------------Automatic Slideshow: Middle column----------------------------------- */
+
+.mySlides {
+    display:none;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.announcement-card{
+    width:100%;
+    margin:0px;
+    padding: 0px;
+    display: block;
+    height:30px;
+    
+    
+}
+
+.announcement-heading{
+    margin: 0px;
+    width: 20%;
+    height: 30px;
+    padding-top: 6px ;
+    background-color: #F7C826 ;
+    color: #005CF2;
+    display: inline-block;
+    font-family: 'Montserrat Bold', sans-serif;
+    float: left;
+    font-size: 14px;
+    border-radius:0px 0px 0px 10px;
+
+}
+
+.announcement-text{
+    margin: 0px;
+    padding: 8px 10px 10px 50px;
+    font-family: 'Montserrat Medium', sans-serif;
+    width:80%;
+    height:30px;
+    font-size: 12px;
+    background-color: #F5F5F5 ;
+    color: #005CF2;
+    float: left;
+    display: inline-block;
+    border-radius:0px 0px 10px 0px;
+}
+
+.announcement-card::after{
+    display: block;
+}
+
+/* ------------------------What's Happening And News and Events Column----------------------------------- */
+
+.container{
+    margin-top:50px;
+    padding:20px 0px 0px 0px;
+    width: 100%;
+}
+
+.outline{
+    border: 1px solid #747474;
+    border-radius: 10px;
+    width: 100%;
+    height: 280px;
+    display: block;
+    margin-top: 5px;
+    background-color: #F5F5F5;
+    
+}
+
+.outline.upper{
+    height:280px;
+}
+.outline.lower{
+    height: 260px;
+}
+
+.content{
+    margin: 15px;
+    display: block;
+    font-size: 14px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-family: 'Montserrat Regular', sans-serif;
+
+}
+.content:hover{
+    color:#89C355;
+    text-decoration: none;
+}
+
+.view-all-btn{
+    border: 1px solid #89C355;
+    margin-right:20px;
+    margin-top: 20px;
+    color: #89C355;
+    height:35px;
+    float:right;
+    font-family: 'Montserrat Medium';
+    font-size:14px;
+    width:100px;
+}
+
+td.tools:hover, .view-all-btn:hover, .user-card:hover{
+    background-color: #89C355 ;
+    
+    color: #FFFFFF;
+    
+}
+
+/* ------------------------Birthday Cards : right column----------------------------------- */
+
+.birthday{
+    width:90%;
+    margin:0% 5% 0% 5%;
+    height: 500px;
+    overflow: auto;
+}
+
+.user-card{
+    display: block;
+    width:100%;
+    height:50px;
+    border-radius: 10px 0
+}
+
+.user-icon{
+    display:inline-block;
+    width: 15%;
+    float:left;
+    height: 40px;
+    font-size: x-large;
+    padding-left: 10px;
+    padding-top: 8px;
+    overflow: hidden;
+}
+
+.user-info{
+    display:inline-block;
+    width: 75%;
+    float: left;
+    height: 50px;
+    overflow: hidden;
+    margin-left: 5px;
+    
+}
+
+.user-name{
+    display: block;
+    font-size: 15px;
+    height: 25px;
+    padding-top: 5px;
+    font-family: 'Montserrat Medium', sans-serif;
+}
+
+.user-role{
+    display: block;
+    font-size: 12px;
+    height: 25px;
+    font-family: 'Montserrat Medium', sans-serif;
+}
+
+/* ------------------------Footer Gallery : Bottom----------------------------------- */
+
+.gallery-row{
+    position: relative;
+    
+}
+
+.gallery-column {
+    float: left;
+    padding: 10px;
+    width: 25%;
+    background-color: #F5F5F5;
+    position: relative;
+    border-radius: 10px;
+    
+}
+
+ 
+.gallery-column img {
+    opacity: 0.8; 
+    cursor: pointer;
+    border-radius: 10px;
+    
+}
+  
+.gallery-column img:hover {
+    opacity: 1;
+}
+
+
+.gallery-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.gallery-row .prev, .gallery-row .next {
+    position: absolute; 
+    z-index: 2;
+    top:50%; 
+    font-size: xx-large;
+}
+
+.gallery-row .prev{
+    left:0;
+}
+
+.gallery-row .next{ 
+    right:0;
+}
+
+.slide-changer{
+    width:25%;
+    height:150px;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-right:auto;
+}
+

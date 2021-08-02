@@ -1,5 +1,5 @@
 # Jubilant Ingrevia Summer Internship
- My main task at Jubilant is to revamp the frontend of the homepage for their employee portal and make it more responsive, appealing, user-friendly and at the same time keeping the essence of the home page same as the prwvious one. For this project I used HTML, CSS, BOOTSTRAP, JAVASCRIPT, Jquery, and other javascript libraries like micron.js, aos.js, and flat-remix-css.
+ My main task at Jubilant is to revamp the frontend of the homepage for their employee portal and make it more responsive, appealing, user-friendly and at the same time keeping the essence of the home page same as the previous one. For this project I used HTML, CSS, BOOTSTRAP, JAVASCRIPT, Jquery, and other javascript libraries like micron.js, aos.js, and flat-remix-css.
  
 
 ![1](https://user-images.githubusercontent.com/54483750/127878993-9af4467b-d87a-414b-89e2-d26ca9a41631.png)
